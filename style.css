@@ -1,7 +1,15 @@
+.page {
+    display: flex; 
+    justify-content: center;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    word-spacing: 1px;
+}
+
 body {
     background-color: #384e66;
 }
 
-.hesth {
+.hesth .foten {
     background-color: #142c42;
 }

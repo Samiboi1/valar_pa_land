@@ -7,7 +7,7 @@ body {
     background-color: #384e66;
 }
 
-p {
+p, h1, h2{
     color: #ffffff;
 }
 

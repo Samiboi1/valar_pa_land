@@ -1,0 +1,39 @@
+<!--
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="./VPL_logo.png" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <title>Valar på Land - _______</title>
+</head>
+
+<div class="page">
+
+    <body>
+        <header>
+            <button class="home"><a href="https://samiboi1.github.io/valar_pa_land/">Hem</a></button>
+            <button class="members"><a href="https://samiboi1.github.io/valar_pa_land/members.html">Medlemmar</a></button>
+        </header>
+
+        <main>
+            <p>
+                Här kommer massa info, hoppas jag
+            </p>
+        </main>
+
+        <footer>
+            <p>
+                Dehär är footern
+            </p>
+            <script src="./script.js"></script>
+        </footer>
+    </body>
+</div>
+
+</html>
+-->

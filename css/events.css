@@ -1,6 +1,7 @@
 .event {
-        border: 1px solid #aaa;
-        padding: 1rem;
+        border: 5px solid #0b1015;
+        border-radius: 1rem;
+        padding: 0.75rem;
         margin-bottom: 1rem;
-        background: #9fb5d1;
+        background: #57585c;
 }

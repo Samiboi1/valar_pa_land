@@ -1,5 +1,3 @@
-/* style.css */
-
 .page {
     max-width: 100%;
     max-height: 100%;
@@ -10,7 +8,9 @@ body {
     background-color: #384e66;
 }
 
-p, h1, h2{
+p,
+h1,
+h2 {
     color: #f9f9f9;
 }
 

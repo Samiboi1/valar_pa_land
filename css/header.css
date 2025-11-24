@@ -1,13 +1,13 @@
 header {
     background-color: #142c42;
     border-radius: 1rem;
-    padding: 2vw;
-    min-height: 5vw;
+    padding: 2rem;
+    min-height: 5rem;
 }
 
 button {
     background-color: #791f2b;
-    padding: 0.75vw;
+    padding: 0.75rem;
     border-radius: 1rem;
     border: 2px solid #0b1015;
     box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
@@ -16,6 +16,6 @@ button {
 button a {
     color: #f9f9f9;
     font-weight: bold;
-    padding: 0.75vw;
+    padding: 0.75rem;
     text-decoration: none;
 }

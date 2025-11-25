@@ -45,14 +45,14 @@
 
 @media (max-width: 600px) {
     .hesth h1 {
-        font-size: 1.8rem;
+        font-size: 2.875rem;
     }
 
     .member h2 {
-        font-size: 1.1rem;
+        font-size: 1.75rem;
     }
 
     .member p {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 }

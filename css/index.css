@@ -11,3 +11,10 @@
 .question {
     margin-top: 5rem;
 }
+
+.page {
+    background-image: url("./pics/theband.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

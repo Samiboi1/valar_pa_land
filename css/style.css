@@ -29,3 +29,16 @@ p {
 button:hover {
     filter: brightness(80%);
 }
+
+.subtext {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.answer {
+    margin-bottom: 5rem;
+}

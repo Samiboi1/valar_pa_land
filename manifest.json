@@ -1,0 +1,22 @@
+{
+    "name": "Valar på Land",
+    "theme_color": "#e32620",
+    "background_color": "#fff6f2",
+    "short_name": "VPL",
+    "start_url": "https://samiboi1.github.io/valar_pa_land/",
+    "display": "fullscreen",
+    "icons": [
+        {
+            "src": "VPL_logo.png",
+            "type": "./VPL_logo.png",
+            "sizes": "192x192",
+            "purpose": "any"
+        },
+        {
+            "src": "VPL_logo.png",
+            "type": "./VPL_logo.png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        }
+    ]
+}

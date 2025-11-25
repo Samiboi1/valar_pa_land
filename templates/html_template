@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="manifest" href="manifest.json" />
     <title>Valar på Land - _______</title>
 </head>
 
@@ -31,6 +32,7 @@
 
         <footer>
             <script src="./script.js"></script>
+            <script src="./sw-registration.js"></script>
         </footer>
     </body>
 </div>

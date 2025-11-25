@@ -1,56 +1,22 @@
-<!DOCTYPE html>
-<html lang="sv">
-
-<head>
-    <meta charset="utf-8">
-    <link rel="icon" href="./VPL_logo.png" />
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/events.css">
-
-    <title>Valar på Land - Evenemang</title>
-</head>
-
-<div class="page">
-    
-    <body>
-        <header>
-            <button class="home"><a href="https://samiboi1.github.io/valar_pa_land/">Hem</a></button>
-            <button class="members"><a href="https://samiboi1.github.io/valar_pa_land/members.html">Medlemmar</a></button>
-            <button class="events"><a href="https://samiboi1.github.io/valar_pa_land/events.html">Evenemang</a></button>
-        </header>
-
-        <main>
-        <h1>
-            Kommande Evenemang
-        </h1>
-        <div class="event">
-            <h2>
-                Title
-            </h2>
-            <p>
-                Datum: 
-            </p>
-            <p>
-                Plats: 
-            </p>
-            <p>
-                Tid: 
-            </p>
-            <p>
-                Beskrivning: 
-            </p>
-        </div>
-        </main>
-
-        <footer>
-            <p>
-                Dehär är footern
-            </p>
-            <script src="./script.js"></script>
-        </footer>
-    </body>
-</div>
-
-</html>
+<main>
+    <h1>
+        Kommande Evenemang
+    </h1>
+    <div class="event">
+        <h2>
+            Title
+        </h2>
+        <p>
+            Datum:
+        </p>
+        <p>
+            Plats:
+        </p>
+        <p>
+            Tid:
+        </p>
+        <p>
+            Beskrivning:
+        </p>
+    </div>
+</main>

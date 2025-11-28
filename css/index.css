@@ -16,6 +16,12 @@
     background: #57585c;
 }
 
+/*
 body {
-    background-image: url('pics/theband.jpg');
+    background-image: url('../pics/theband.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+*/

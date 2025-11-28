@@ -56,3 +56,36 @@
         font-size: 1rem;
     }
 }
+
+.band {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 24px;
+}
+
+.band h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.875rem;
+    color: #f9f9f9;
+}
+
+.band img {
+    width: 100%;
+    height: auto;
+    max-height: 2750px;
+    object-fit: contain;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .band h1 {
+        font-size: 2.875rem;
+    }
+}

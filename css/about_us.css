@@ -43,20 +43,6 @@
     color: #f9f9f9;
 }
 
-@media (max-width: 600px) {
-    .hesth h1 {
-        font-size: 2.875rem;
-    }
-
-    .member h2 {
-        font-size: 1.75rem;
-    }
-
-    .member p {
-        font-size: 1rem;
-    }
-}
-
 .band {
     position: relative;
     width: 100%;

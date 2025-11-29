@@ -43,16 +43,44 @@
     color: #f9f9f9;
 }
 
-@media (max-width: 600px) {
-    .hesth h1 {
-        font-size: 2.875rem;
-    }
+.band {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 8px;
+}
 
-    .member h2 {
-        font-size: 1.75rem;
-    }
+.band-carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
 
-    .member p {
-        font-size: 1rem;
-    }
+.band img {
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 20;
+    background: #f9f9f9;
+    color: #57585c;
+
+}
+
+.btn.prev {
+    left: 10px;
+}
+
+.btn.next {
+    right: 10px;
 }

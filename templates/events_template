@@ -1,22 +1,20 @@
-<main>
-    <h1>
-        Kommande Evenemang
-    </h1>
-    <div class="event">
-        <h2>
-            Title
-        </h2>
-        <p>
-            Datum:
-        </p>
-        <p>
-            Plats:
-        </p>
-        <p>
-            Tid:
-        </p>
-        <p>
-            Beskrivning:
-        </p>
-    </div>
-</main>
+<h1>
+Kommande Evenemang
+</h1>
+<div class="event">
+    <h2>
+        Title
+    </h2>
+    <p>
+        Datum:
+    </p>
+    <p>
+        Plats:
+    </p>
+    <p>
+        Tid:
+    </p>
+    <p>
+        Beskrivning:
+    </p>
+</div>

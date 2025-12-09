@@ -1,5 +1,5 @@
 .hesth {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -34,6 +34,7 @@
 
 .member h2 {
     margin: 12px 0 6px;
+    white-space: nowrap;
 }
 
 .member p {

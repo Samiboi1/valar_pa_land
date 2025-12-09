@@ -7,15 +7,11 @@ header {
 
 button {
     background-color: #791f2b;
-    padding: 0.75rem;
+    color: #f9f9f9;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem 2rem;
     border-radius: 1rem;
     border: 2px solid #0b1015;
     box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
-}
-
-button a {
-    color: #f9f9f9;
-    font-weight: bold;
-    padding: 0.75rem;
-    text-decoration: none;
 }

@@ -1,5 +1,6 @@
+<!-- Kommande evenemang -->
 <h1>
-Kommande Evenemang
+    Kommande Evenemang
 </h1>
 <div class="event">
     <h2>
@@ -17,4 +18,15 @@ Kommande Evenemang
     <p>
         Beskrivning:
     </p>
+</div>
+
+<!-- Inga evenemang -->
+
+<div class="no_events">
+    <h1>
+        Tyvärr
+    </h1>
+    <h2>
+        Inga spelningar planerade för tillfället
+    </h2>
 </div>

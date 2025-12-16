@@ -4,17 +4,17 @@ const eventsBtn = document.getElementById("eventsBtn");
 const contact_usBtn = document.getElementById("contact_usBtn");
 
 homeBtn.addEventListener("click", () => {
-    window.location.href = "https://samiboi1.github.io/valar_pa_land/";
+    window.location.href = "./";
 });
 
 about_usBtn.addEventListener("click", () => {
-    window.location.href = "https://samiboi1.github.io/valar_pa_land/about_us.html";
+    window.location.href = "./about_us.html";
 });
 
 eventsBtn.addEventListener("click", () => {
-    window.location.href = "https://samiboi1.github.io/valar_pa_land/events.html";
+    window.location.href = "./events.html";
 });
 
 contact_usBtn.addEventListener("click", () => {
-    window.location.href = "https://samiboi1.github.io/valar_pa_land/contact_us.html";
+    window.location.href = "./contact_us.html";
 });

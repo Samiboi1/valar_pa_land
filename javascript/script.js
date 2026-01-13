@@ -4,7 +4,7 @@ const eventsBtn = document.getElementById("eventsBtn");
 const contact_usBtn = document.getElementById("contact_usBtn");
 
 homeBtn.addEventListener("click", () => {
-    window.location.href = "./";
+    window.location.href = "./index.html";
 });
 
 about_usBtn.addEventListener("click", () => {

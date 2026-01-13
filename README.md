@@ -1,7 +1,6 @@
 <div id="top"></div>
 
 [![Contributors][contributors-shield]][contributors-url]
-[![Stargazers][stars-shield]][stars-url]
 [![License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -95,9 +94,9 @@ Don't forget to give the project a star! Thanks again!
 
 ## Contact
 
-Sam Hartelius (Developer) - [@Samiboi1](https://www.instagram.com/samhartelius/)
+Sam Hartelius (Developer) - [@samhartelius](https://www.instagram.com/samhartelius/)
 
-Project Link: [https://github.com/Samiboi1/valar_pa_land/
+Project Link: [https://github.com/Samiboi1/valar_pa_land/]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -105,8 +104,6 @@ Project Link: [https://github.com/Samiboi1/valar_pa_land/
 
 [contributors-shield]: https://img.shields.io/github/contributors/Samiboi1/valar_pa_land.svg?style=for-the-badge
 [contributors-url]: https://github.com/Samiboi1/valar_pa_land/graphs/contributors
-[stars-shield]: https://img.shields.io/github/stars/Samiboi1/valar_pa_land.svg?style=for-the-badge
-[stars-url]: https://github.com/Samiboi1/valar_pa_land/stargazers
 [license-shield]: https://img.shields.io/github/license/Samiboi1/valar_pa_land.svg?style=for-the-badge
 [license-url]: https://github.com/Samiboi1/valar_pa_land/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555

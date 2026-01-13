@@ -9,7 +9,7 @@
 <br />
 <div align="center">
   <a href="https://samiboi1.github.io/valar_pa_land/">
-    <img src="icons/vpl-logo-no-bg.png" alt="Logo" >
+    <img src="icons/vpl-logo-no-bg.png" alt="Logo" height="100">
   </a>
 
   <h3 align="center">Website for Valar på Land</h3>

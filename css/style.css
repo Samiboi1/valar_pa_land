@@ -2,17 +2,16 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    height: 100%;
-    margin: 0;
+html {
+    margin: 1rem;
     padding: 0;
 }
 
 body {
     background-color: #384e66;
     flex-direction: column;
-    min-height: 100vh;
+    line-height: 1.5;
+    /* width: min(65ch, 100% - 4rem); */
 }
 
 main {

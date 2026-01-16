@@ -2,15 +2,14 @@
     box-sizing: border-box;
 }
 
-html {
-    margin: 1rem;
-    padding: 0;
-}
-
 body {
+    margin: 1.5rem;
+    padding: 0;
     background-color: oklch(0.4162 0.0487 251.18);
+    display: flex;
     flex-direction: column;
     line-height: 1.5;
+    min-height: 100vh;
     /* width: min(65ch, 100% - 4rem); */
 }
 

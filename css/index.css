@@ -23,5 +23,5 @@ body {
 .dim {
     position: absolute;
     inset: 0;
-    background: oklch(0.1702 0.0132 248.61);
+    background: oklch(0 0 0 / 40%)
 }

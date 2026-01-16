@@ -76,8 +76,8 @@
     cursor: pointer;
     font-size: 20px;
     z-index: 20;
-    background: #f9f9f9;
-    color: #57585c;
+    background: oklch(0.9821 0 0);
+    color: oklch(0.4609 0.0066 274.86);
 
 }
 

@@ -1,5 +1,5 @@
 footer {
-    background-color: #142c42;
+    background-color: oklch(0.2854 0.0506 248.11);
     padding: 2rem;
     border-radius: 1rem;
     min-height: 3rem;
@@ -8,5 +8,5 @@ footer {
 .social-icons .fa {
     font-size: 24px;
     margin: 0 6px;
-    color: #142c42;
+    color: oklch(0.2854 0.0506 248.11);
 }

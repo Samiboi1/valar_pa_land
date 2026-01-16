@@ -1,9 +1,9 @@
 .event {
-        border: 5px solid #0b1015;
+        border: 5px solid oklch(0.1702 0.0132 248.61);
         border-radius: 1rem;
         padding: 0.75rem;
         margin-bottom: 1rem;
-        background: #57585c;
+        background: oklch(0.4609 0.0066 274.86);
 }
 
 .no_events {

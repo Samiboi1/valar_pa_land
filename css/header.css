@@ -1,17 +1,17 @@
 header {
-    background-color: #142c42;
+    background-color: oklch(0.2854 0.0506 248.11);
     border-radius: 1rem;
     padding: 2rem;
     min-height: 5rem;
 }
 
 button {
-    background-color: #791f2b;
-    color: #f9f9f9;
+    background-color: oklch(0.3891 0.1234 17.72);
+    color: oklch(0.9821 0 0);
     font-weight: bold;
     text-decoration: none;
     padding: 1rem 2rem;
     border-radius: 1rem;
     border: 2px solid #0b1015;
-    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 0px oklch(0.1702 0.0132 248.61);
 }

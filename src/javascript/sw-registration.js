@@ -17,12 +17,10 @@ if ('serviceWorker' in navigator) {
 
         // installing Service Worker found
         if (installingWorker) {
-          console.log('installing sw found');
           installingWorker.addEventListener('statechange', async () => {
             // the new Service Worker is installed and waiting to be activated
             // the outdated caches can be updated and the Service Worker will be activated on the next navigation or reload
             if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
-              console.log('new sw installed');
 
               window.swUpdate = true;
 

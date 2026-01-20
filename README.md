@@ -8,7 +8,7 @@
 <br />
 <div align="center">
   <a href="https://samiboi1.github.io/valar_pa_land/">
-    <img src="icons/vpl-logo-no-bg.png" alt="Logo" height="200">
+    <img src="./images/logos/vpl-logo-no-bg.png" alt="Logo" height="200">
   </a>
 
   <h3 align="center">Website for Valar på Land</h3>
@@ -54,8 +54,6 @@ To use this schedule simply navigate to https://samiboi1.github.io/valar_pa_land
 
 On the website you can see when and where Valar på Land have concerts and a few pictures from photoshoots and concerts from the past
 
-
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- BUILT WITH -->
@@ -71,8 +69,6 @@ These are the languages and tools used to develop and publish the website
 - [Github Pages](https://pages.github.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 

@@ -3,6 +3,9 @@ header {
     border-radius: 1rem;
     padding: 2rem;
     min-height: 5rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 button {
@@ -12,6 +15,13 @@ button {
     text-decoration: none;
     padding: 1rem 2rem;
     border-radius: 1rem;
-    border: 2px solid #0b1015;
+    border: 2px solid oklch(0.1702 0.0132 248.61);
     box-shadow: 5px 5px 0px oklch(0.1702 0.0132 248.61);
+    flex-shrink: 0;
+}
+
+.vpl-logo {
+    height: 8rem;
+    vertical-align: top;
+    margin-right: 1rem;
 }

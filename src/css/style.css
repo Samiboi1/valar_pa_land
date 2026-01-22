@@ -8,7 +8,6 @@ body {
     background-color: oklch(0.4162 0.0487 251.18);
     display: flex;
     flex-direction: column;
-    line-height: 1.5;
     min-height: 100vh;
     /* width: min(65ch, 100% - 4rem); */
 }
@@ -17,7 +16,6 @@ main {
     flex: 1;
 }
 
-p,
 h1,
 h2 {
     color: oklch(0.9821 0 0);
@@ -36,6 +34,7 @@ h2 {
 
 p {
     font-size: 1rem;
+    color: oklch(0.1702 0.0132 248.61);
 }
 
 button:hover {

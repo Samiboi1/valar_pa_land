@@ -40,6 +40,7 @@
 .member p {
     margin: 0;
     margin-bottom: 3px;
+    color: oklch(0.9821 0 0);
 }
 
 .carousel {

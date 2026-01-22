@@ -1,12 +1,27 @@
 footer {
     background-color: oklch(0.2854 0.0506 248.11);
-    padding: 2rem;
     border-radius: 1rem;
+    padding: 2rem;
     min-height: 3rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.social-icons .fa {
-    font-size: 24px;
-    margin: 0 6px;
-    color: oklch(0.2854 0.0506 248.11);
+.social-icons {
+    font-size: 1.3rem;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+footer a:link, footer a:visited {
+    color: oklch(0.7657 0.0471 254.55);
+}
+
+footer a:hover {
+    background-color: oklch(0.3891 0.1234 17.72);
 }

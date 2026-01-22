@@ -3,5 +3,9 @@
     border-radius: 1rem;
     padding: 0.75rem;
     margin-bottom: 1rem;
-    background: oklch(0.4609 0.0066 274.86);
+    background: oklch(0.7657 0.0471 254.55);
+}
+
+.contact-info h2 {
+    color: oklch(0.1702 0.0132 248.61);
 }

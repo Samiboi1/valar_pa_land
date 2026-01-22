@@ -1,7 +1,8 @@
 .subtext {
     font-size: 0.9rem;
     text-align: center;
-    margin-top: -2rem;
+    margin-top: -2em;
+    color: oklch(0.9821 0 0);
 }
 
 .QnA {
@@ -9,7 +10,11 @@
     border-radius: 1rem;
     padding: 0.75rem;
     margin-bottom: 1rem;
-    background: oklch(0.4609 0.0066 274.86);
+    background: oklch(0.7657 0.0471 254.55);
+}
+
+.QnA h2 {
+    color: oklch(0.1702 0.0132 248.61);
 }
 
 body {

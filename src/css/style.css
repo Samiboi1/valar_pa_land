@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -17,7 +18,8 @@ main {
 }
 
 h1,
-h2 {
+h2,
+p {
     color: oklch(0.9821 0 0);
 }
 
@@ -34,7 +36,6 @@ h2 {
 
 p {
     font-size: 1rem;
-    color: oklch(0.1702 0.0132 248.61);
 }
 
 button:hover {

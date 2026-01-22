@@ -4,27 +4,15 @@
     "icons": [
         {
             "purpose": "maskable",
-            "sizes": "512x512",
+            "sizes": "any",
             "src": "./images/logos/valar_pa_land-text.svg",
-            "type": "image/png"
+            "type": "image/svg+xml"
         },
         {
             "purpose": "any",
-            "sizes": "512x512",
+            "sizes": "any",
             "src": "./images/logos/valar_pa_land-text.svg",
-            "type": "image/png"
-        },
-        {
-            "purpose": "any",
-            "sizes": "192x192",
-            "src": "./images/logos/valar_pa_land-text.svg",
-            "type": "image/png"
-        },
-        {
-            "purpose": "maskable",
-            "sizes": "192x192",
-            "src": "./images/logos/valar_pa_land-text.svg",
-            "type": "image/png"
+            "type": "image/svg+xml"
         }
     ],
     "orientation": "any",

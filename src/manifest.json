@@ -1,16 +1,30 @@
 {
     "theme_color":"#142c42",
     "background_color":"#791f2b",
-    "icons":
+    "icons": 
 [
-    {"purpose":"maskable",
+    {
+    "purpose":"maskable",
     "sizes":"512x512",
     "src":"../images/logos/pwa-icons/icon512_maskable.png",
     "type":"image/png"
     },
-    {"purpose":"any",
+    {
+    "purpose":"any",
     "sizes":"512x512",
     "src":"../images/logos/pwa-icons/icon512_rounded.png",
+    "type":"image/png"
+    },
+    {
+    "purpose":"maskable",
+    "sizes":"192x192",
+    "src":"../images/logos/pwa-icons/icon512_maskable.png",
+    "type":"image/png"
+    },
+    {
+    "purpose":"any",
+    "sizes":"192x192",
+    "src":"../images/logos/pwa-icons/icon512_maskable.png",
     "type":"image/png"
     }
 ],

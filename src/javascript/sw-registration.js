@@ -6,6 +6,7 @@ if ('serviceWorker' in navigator) {
 
       // if there is already a new Service Worker waiting when the page is loaded, skip waiting to update immediately
       if (newServiceWorkerWaiting) {
+        console.log('new sw waiting');
         window.swUpdate = true;
         await SWHelper.skipWaiting();
       }
@@ -16,11 +17,12 @@ if ('serviceWorker' in navigator) {
 
         // installing Service Worker found
         if (installingWorker) {
+          console.log('installing sw found');
           installingWorker.addEventListener('statechange', async () => {
             // the new Service Worker is installed and waiting to be activated
             // the outdated caches can be updated and the Service Worker will be activated on the next navigation or reload
             if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
-              console.log("new sw installed")
+              console.log('new sw installed');
 
               window.swUpdate = true;
 

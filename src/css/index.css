@@ -1,5 +1,5 @@
 .subtext {
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-align: center;
     margin-top: -2em;
 }
@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: 
+    background-image:
         linear-gradient(oklch(0 0 0 / 40%), oklch(0 0 0 / 40%)),
         url('../../images/pics/Inne1.jpg');
     background-size: cover;

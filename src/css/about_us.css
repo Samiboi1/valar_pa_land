@@ -40,7 +40,6 @@
 .member p {
     margin: 0;
     margin-bottom: 3px;
-    color: oklch(0.9821 0 0);
 }
 
 .carousel {
@@ -73,13 +72,22 @@
     top: 50%;
     transform: translateY(-50%);
     border: none;
-    padding: 8px 12px;
     cursor: pointer;
-    font-size: 20px;
     z-index: 20;
     background: oklch(0.9821 0 0);
     color: oklch(0.4609 0.0066 274.86);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 1rem;
+}
 
+.btn:hover {
+    filter: brightness(80%);
+}
+
+.btn:active {
+    filter: brightness(50%);
 }
 
 .btn.prev {

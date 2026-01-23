@@ -35,10 +35,9 @@ h2 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 button:hover {
-    filter: brightness(80%);
     cursor: pointer;
 }

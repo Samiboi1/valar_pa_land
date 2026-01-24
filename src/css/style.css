@@ -6,11 +6,19 @@
 body {
     margin: 1.5rem;
     padding: 0;
-    background-color: oklch(0.4162 0.0487 251.18);
+    background-color: oklch(0.2854 0.0506 248.11);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     /* width: min(65ch, 100% - 4rem); */
+}
+
+.textbox {
+    border: 5px solid oklch(0.1702 0.0132 248.61);
+    border-radius: 1rem;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    background: oklch(0.4162 0.0487 251.18);
 }
 
 main {

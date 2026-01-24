@@ -4,14 +4,6 @@
     margin-top: -2em;
 }
 
-.QnA {
-    border: 5px solid oklch(0.1702 0.0132 248.61);
-    border-radius: 1rem;
-    padding: 0.75rem;
-    margin-bottom: 1rem;
-    background: oklch(0.2854 0.0506 248.11);
-}
-
 body {
     background-image:
         linear-gradient(oklch(0 0 0 / 40%), oklch(0 0 0 / 40%)),

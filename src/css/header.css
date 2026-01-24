@@ -11,7 +11,7 @@ header {
 header button {
     background-color: oklch(0.3891 0.1234 17.72);
     color: oklch(0.7657 0.0471 254.55);
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
     text-decoration: none;
     padding: 1rem 2rem;

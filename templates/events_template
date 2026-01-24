@@ -2,7 +2,7 @@
 <h1>
     Kommande Evenemang
 </h1>
-<div class="event">
+<div class="textbox">
     <h2>
         Title
     </h2>
@@ -22,11 +22,13 @@
 
 <!-- Inga evenemang -->
 
-<div class="no_events">
-    <h1>
-        Tyvärr
-    </h1>
-    <h2>
-        Inga spelningar planerade för tillfället
-    </h2>
+<div class="textbox">
+    <div class="no_events">
+        <h1>
+            Tyvärr
+        </h1>
+        <h2>
+            Inga spelningar planerade för tillfället
+        </h2>
+    </div>
 </div>

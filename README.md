@@ -11,7 +11,7 @@
     <img src="./images/logos/valar_pa_land-text.svg" alt="Logo" height="300">
   </a>
   <a href="https://samiboi1.github.io/valar_pa_land/">
-    <img src="src.images/logos/valar_pa_land-logo.png" alt="Logo" height="300">
+    <img src="./images/logos/valar_pa_land-logo.png" alt="Logo" height="300">
   </a>
 
   <h3 align="center">Website for Valar på Land</h3>

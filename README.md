@@ -10,6 +10,9 @@
   <a href="https://samiboi1.github.io/valar_pa_land/">
     <img src="./images/logos/valar_pa_land-text.svg" alt="Logo" height="300">
   </a>
+  <a href="https://samiboi1.github.io/valar_pa_land/">
+    <img src="src.images/logosvalar_pa_land-logo.png" alt="Logo" height="300">
+  </a>
 
   <h3 align="center">Website for Valar på Land</h3>
 
@@ -48,7 +51,7 @@
 
 #### Navigating to the website
 
-To use this schedule simply navigate to https://samiboi1.github.io/valar_pa_land/.
+To use this website simply navigate to https://samiboi1.github.io/valar_pa_land/.
 
 #### What can I do?
 

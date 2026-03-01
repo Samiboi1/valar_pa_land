@@ -10,7 +10,7 @@ header {
 
 header button {
     background-color: oklch(0.3891 0.1234 17.72);
-    color: oklch(0.7657 0.0471 254.55);
+    color: oklch(0.9821 0 0);
     font-size: 1.1rem;
     font-weight: bold;
     text-decoration: none;

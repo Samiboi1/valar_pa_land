@@ -6,7 +6,7 @@
 
 body {
     background-image:
-        linear-gradient(oklch(0 0 0 / 40%), oklch(0 0 0 / 40%)),
+        linear-gradient(oklch(0 0 0 / 60%), oklch(0 0 0 / 60%)),
         url('../../images/pics/Inne1.jpg');
     background-size: cover;
     background-position: center;

@@ -33,3 +33,61 @@ header button:active {
     vertical-align: top;
     margin-right: 1rem;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-flex;
+}
+
+.dropbtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.dropbtn::after {
+    content: "▾";
+    font-size: 1rem;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 0;
+    background-color: oklch(0.1702 0.0132 248.61);
+    border-radius: 0.5rem;
+    min-width: 10rem;
+    box-shadow: 0 0.375rem 1rem oklch(0 0 0 / 70%);
+    padding: 0.35rem 0;
+    display: none;
+    z-index: 10;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: oklch(0.9821 0 0);
+    text-decoration: none;
+    font: inherit;
+    white-space: nowrap;
+}
+
+.dropdown-content a:hover {
+    background-color: oklch(0.7657 0.0471 254.55);
+    color: oklch(0.1702 0.0132 248.61);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: oklch(0.7657 0.0471 254.55);
+    color: oklch(0.1702 0.0132 248.61);
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown-content:hover {
+    display: block !important;
+}

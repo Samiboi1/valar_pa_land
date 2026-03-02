@@ -1,0 +1,30 @@
+.memberlist {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 24px;
+    margin-bottom: 1rem;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+    max-height: 2750px;
+    object-fit: contain;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.member h2 {
+    margin: 12px 0 6px;
+    white-space: nowrap;
+}
+
+.member p {
+    margin: 0;
+    margin-bottom: 3px;
+}

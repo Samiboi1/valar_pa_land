@@ -1,5 +1,6 @@
 const homeBtn = document.getElementById("homeBtn");
-const about_usBtn = document.getElementById("about_usBtn");
+const thebandBtn = document.getElementById("thebandBtn");
+const galleryBtn = document.getElementById("galleryBtn");
 const eventsBtn = document.getElementById("eventsBtn");
 const contact_usBtn = document.getElementById("contact_usBtn");
 
@@ -7,8 +8,12 @@ homeBtn.addEventListener("click", () => {
     window.location.href = "./";
 });
 
-about_usBtn.addEventListener("click", () => {
-    window.location.href = "./about_us.html";
+thebandBtn.addEventListener("click", () => {
+    window.location.href = "./theband.html";
+});
+
+galleryBtn.addEventListener("click", () => {
+    window.location.href = "./gallery.html";
 });
 
 eventsBtn.addEventListener("click", () => {

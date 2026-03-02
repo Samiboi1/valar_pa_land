@@ -7,17 +7,23 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/header.css">
     <link rel="stylesheet" href="./src/css/footer.css">
-    <link rel="stylesheet" href="./src/css/about_us.css">
+    <link rel="stylesheet" href="./src/css/gallery.css">
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="manifest" href="./src/manifest.json" />
-    <title>Valar på Land - Om Oss</title>
+    <title>Valar på Land - Galleria</title>
 </head>
 
 <body>
     <header>
         <img src="./images/logos/valar_pa_land-text.svg" alt="Logga för Valar på Land" class="vpl-logo">
         <button id="homeBtn">Hem</button>
-        <button id="about_usBtn">Om Oss</button>
+        <div class="dropdown">
+            <button class="dropbtn" id="about_usBtn">Om Oss</button>
+            <div class="dropdown-content">
+                <a id="thebandBtn">Bandet</a>
+                <a id="galleryBtn">Galleria</a>
+            </div>
+        </div>
         <button id="eventsBtn">Evenemang</button>
         <button id="contact_usBtn">Kontakta Oss</button>
     </header>
@@ -37,61 +43,10 @@
                 <button class="btn next" data-carousel="band-carousel">&#10095;</button>
             </div>
         </div>
-        <div class="hesth">
+        <div class="satila">
             <h1>
-                Medlemmar
+                Valarna på No Excuse
             </h1>
-            <div class="memberlist">
-                <div class="member">
-                    <h2>
-                        Moa Axelsson
-                    </h2>
-                    <p>
-                        @moaaxe
-                    </p>
-                    <img src="./images/pics/Moa.jpg" alt="Bild på Moa">
-                </div>
-                <div class="member">
-                    <h2>
-                        Levi Malmborg
-                    </h2>
-                    <p>
-                        @malmborg.levi
-                    </p>
-                    <img src="./images/pics/Levi.jpg" alt="Bild på Levi">
-                </div>
-                <div class="member">
-                    <h2>
-                        Svea Pellmé
-                    </h2>
-                    <p>
-                        @sveapellme
-                    </p>
-                    <img src="./images/pics/Svea.jpg" alt="Bild på Svea">
-                </div>
-                <div class="member">
-                    <h2>
-                        Axel Asplund
-                    </h2>
-                    <p>
-                        @asplund.axel_18
-                    </p>
-                    <img src="./images/pics/Axel.jpg" alt="Bild på Axel">
-                </div>
-                <div class="member">
-                    <h2>
-                        Sam Hartelius
-                    </h2>
-                    <p>
-                        @samhartelius
-                    </p>
-                    <img src="./images/pics/Sam.jpg" alt="Bild på Sam">
-                </div>
-            </div>
-            <div class="satila">
-                <h1>
-                    Valarna på No Excuse
-                </h1>
                 <div class="carousel" id="satila-carousel">
                     <button class="btn prev" data-carousel="satila-carousel">&#10094;</button>
                     <div class="carousel-track">
@@ -119,7 +74,7 @@
                     </div>
                     <button class="btn next" data-carousel="satila-carousel">&#10095;</button>
                 </div>
-            </div>
+        </div>
     </main>
 
     <footer>
@@ -131,7 +86,7 @@
             <a href="https://github.com/Samiboi1/valar_pa_land" target="_blank" rel="noopener noreferrer" class="github">GitHub</a>
         </div>
         <script src="./src/javascript/script.js"></script>
-        <script src="./src/javascript/about_us.js"></script>
+        <script src="./src/javascript/gallery.js"></script>
         <script src="./src/javascript/sw-registration.js"></script>
     </footer>
 </body>

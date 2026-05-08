@@ -1,23 +1,28 @@
 const homeBtn = document.getElementById("homeBtn");
-const thebandBtn = document.getElementById("thebandBtn");
+const bandBtn = document.getElementById("bandBtn");
 const galleryBtn = document.getElementById("galleryBtn");
-const eventsBtn = document.getElementById("eventsBtn");
+const futureBtn = document.getElementById("futureBtn");
+const pastBtn = document.getElementById("pastBtn");
 const contact_usBtn = document.getElementById("contact_usBtn");
 
 homeBtn.addEventListener("click", () => {
     window.location.href = "./";
 });
 
-thebandBtn.addEventListener("click", () => {
-    window.location.href = "./theband.html";
+bandBtn.addEventListener("click", () => {
+    window.location.href = "./band.html";
 });
 
 galleryBtn.addEventListener("click", () => {
     window.location.href = "./gallery.html";
 });
 
-eventsBtn.addEventListener("click", () => {
-    window.location.href = "./events.html";
+futureBtn.addEventListener("click", () => {
+    window.location.href = "./future.html";
+});
+
+pastBtn.addEventListener("click", () => {
+    window.location.href = "./past.html";
 });
 
 contact_usBtn.addEventListener("click", () => {

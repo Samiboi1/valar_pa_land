@@ -42,11 +42,16 @@ h2 {
     font-weight: bold;
 }
 
-p {
+p,
+a {
     font-size: 1.2rem;
 }
 
 button:hover, 
 a:hover {
     cursor: pointer;
+}
+
+a {
+    color: oklch(0.9821 0 0);
 }

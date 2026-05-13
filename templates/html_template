@@ -17,18 +17,19 @@
         <img src="./images/logos/valar_pa_land-text.svg" alt="Logga för Valar på Land" class="vpl-logo">
         <button id="homeBtn">Hem</button>
         <div class="dropdown">
-            <button class="dropbtn" id="about_usBtn">Om Oss</button>
+            <button class="dropbtn" id="about_usBtn">Om Oss </button>
             <div class="dropdown-content">
                 <a id="bandBtn">Bandet</a>
                 <a id="galleryBtn">Galleria</a>
             </div>
         </div>
         <div class="dropdown">
-            <button class="dropbtn" id="eventsBtn">Evenemang</button>
+            <button class="dropbtn" id="eventsBtn">Evenemang </button>
             <div class="dropdown-content">
                 <a id="futureBtn">Kommande evenemang</a>
                 <a id="pastBtn">Tidigare evenemang</a>
             </div>
+        </div>
         <button id="contact_usBtn">Kontakta Oss</button>
     </header>
 

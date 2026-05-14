@@ -8,14 +8,18 @@ footer {
     flex-wrap: wrap;
 }
 
-.social-icons {
-    font-size: 1.3rem;
-}
-
 .social-icons a {
     text-decoration: none;
     padding: 1rem;
     border-radius: 1rem;
+    font-size: 1.3rem;
+}
+
+.credit {
+    padding-left: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .social-icons a {

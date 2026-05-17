@@ -1,3 +1,32 @@
 .no_events {
     text-align: center;
 }
+
+.eventlinks {
+    margin: 0.5rem 0 0 0;
+    padding: 0 0 0 1.25rem;
+    list-style-type: disc;
+}
+
+.eventlinks li {
+    margin: 0.25rem 0;
+}
+
+.eventlinks a {
+    color: oklch(0.9821 0 0);
+    text-decoration: none;
+    font-size: clamp(1rem, 3vw, 1.2rem);
+}
+
+.eventlinks a:hover {
+    text-decoration: underline;
+}
+
+.eventlinks li::marker {
+    color: oklch(0.9821 0 0);
+}
+
+.textbox h3, .eventlinks {
+    display: block;
+    margin-bottom: 0.75rem;
+}

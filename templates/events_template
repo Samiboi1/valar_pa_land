@@ -21,7 +21,6 @@
 </div>
 
 <!-- Inga evenemang -->
-
 <div class="textbox">
     <div class="no_events">
         <h1>
@@ -32,3 +31,44 @@
         </h2>
     </div>
 </div>
+
+<!-- Ny månad -->
+<div class="textbox">
+    <h2>
+        Månad År
+    </h2>
+</div>
+
+<!-- Nytt evenemang utan länk -->
+<h3>
+    Evenemang, Plats, Stad, Datum
+</h3>
+
+<!-- Nytt evenemang med länk -->
+<h3>
+    Evenemang, Plats, Stad, Datum
+</h3>
+<ul class="eventlinks">
+    <li>
+        <a href="" target="_blank" rel="noopener noreferrer">
+            Instagram
+        </a>
+    </li>
+</ul>
+
+<!-- Nytt evenemang med flera länkar -->
+<h3>
+    Evenemang, Plats, Stad, Datum
+</h3>
+<ul class="eventlinks">
+    <li>
+        <a href="" target="_blank" rel="noopener noreferrer">
+            Instagram
+        </a>
+    </li>
+    <li>
+        <a href="" target="_blank" rel="noopener noreferrer">
+            TikTok
+        </a>
+    </li>
+</ul>

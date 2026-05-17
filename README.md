@@ -55,7 +55,7 @@ To use this website simply navigate to https://samiboi1.github.io/valar_pa_land/
 
 #### What can I do?
 
-On the website you can see when and where Valar på Land have concerts and a few pictures from photoshoots and concerts from the past
+On the website you can see when and where Valar På Land have concerts and a few pictures from photoshoots and concerts from the past
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

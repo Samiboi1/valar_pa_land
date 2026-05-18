@@ -1,9 +1,27 @@
 body {
     background-image:
         linear-gradient(oklch(0 0 0 / 60%), oklch(0 0 0 / 60%)),
-        url('../../images/pics/Inne1.jpg');
+        url('../../images/pics/Ute1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.basicinfo {
+    text-align: center;
+    margin-top: -2rem;
+}
+
+.mainevent {
+    text-decoration: none;
+    text-align: center; 
+}
+
+.mainevent h2 {
+    margin-top: -2rem;
+}
+
+.mainevent h2:hover {
+    text-decoration: underline;
 }

@@ -1,6 +1,6 @@
 const homeBtn = document.getElementById("homeBtn");
 const bandBtn = document.getElementById("bandBtn");
-const galleryBtn = document.getElementById("galleryBtn");
+const picturesBtn = document.getElementById("picturesBtn");
 const futureBtn = document.getElementById("futureBtn");
 const pastBtn = document.getElementById("pastBtn");
 const contact_usBtn = document.getElementById("contact_usBtn");
@@ -13,8 +13,8 @@ bandBtn.addEventListener("click", () => {
     window.location.href = "./band.html";
 });
 
-galleryBtn.addEventListener("click", () => {
-    window.location.href = "./gallery.html";
+picturesBtn.addEventListener("click", () => {
+    window.location.href = "./pictures.html";
 });
 
 futureBtn.addEventListener("click", () => {

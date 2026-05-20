@@ -2,31 +2,31 @@
     text-align: center;
 }
 
-.eventlinks {
+.event_links {
     margin: 0.5rem 0 0 0;
     padding: 0 0 0 1.25rem;
     list-style-type: disc;
 }
 
-.eventlinks li {
+.event_links li {
     margin: 0.25rem 0;
 }
 
-.eventlinks a {
+.event_links a {
     color: oklch(0.9821 0 0);
     text-decoration: none;
     font-size: clamp(1rem, 3vw, 1.2rem);
 }
 
-.eventlinks a:hover {
+.event_links a:hover {
     text-decoration: underline;
 }
 
-.eventlinks li::marker {
+.event_links li::marker {
     color: oklch(0.9821 0 0);
 }
 
-.textbox h3, .eventlinks {
+.textbox h3, .event_links {
     display: block;
     margin-bottom: 0.75rem;
 }

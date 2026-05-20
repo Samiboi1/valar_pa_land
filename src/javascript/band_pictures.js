@@ -1,5 +1,5 @@
 document.querySelectorAll('.carousel').forEach((carousel) => {
-    const track = carousel.querySelector('.carousel-track');
+    const track = carousel.querySelector('.carousel_track');
     const slides = carousel.querySelectorAll('.slide');
     const prevBtn = carousel.querySelector('.btn.prev');
     const nextBtn = carousel.querySelector('.btn.next');

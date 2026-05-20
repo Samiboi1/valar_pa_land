@@ -29,7 +29,7 @@ header button:active {
     filter: brightness(50%);
 }
 
-.vpl-logo {
+.vpl_logo {
     height: 8rem;
     vertical-align: top;
     margin-right: 1rem;
@@ -40,17 +40,17 @@ header button:active {
     position: relative;
 }
 
-.dropbtn {
+.dropBtn {
     align-items: center;
     gap: 0.25rem;
 }
 
-.dropbtn::after {
+.dropBtn::after {
     content: "▾";
     font-size: 1rem;
 }
 
-.dropdown-content {
+.dropdown_content {
     position: absolute;
     top: 100%;
     left: 0;
@@ -64,22 +64,22 @@ header button:active {
     z-index: 10;
 }
 
-.dropdown-content a {
+.dropdown_content a {
     display: block;
     padding: 0.5rem 1rem;
     color: oklch(0.9821 0 0);
 }
 
-.dropdown-content a:hover {
+.dropdown_content a:hover {
     background-color: oklch(0.7657 0.0471 254.55);
     color: oklch(0.1702 0.0132 248.61);
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown_content {
     display: block;
 }
 
-.dropdown:hover .dropbtn {
+.dropdown:hover .dropBtn {
     background-color: oklch(0.7657 0.0471 254.55);
     color: oklch(0.1702 0.0132 248.61);
 }
@@ -93,7 +93,7 @@ header button:active {
     }
 
     header button,
-    .dropbtn {
+    .dropBtn {
         width: 100%;
     }
 
@@ -101,7 +101,7 @@ header button:active {
         width: 100%;
     }
 
-    .dropdown-content {
+    .dropdown_content {
         position: static;
         width: 100%;
     }

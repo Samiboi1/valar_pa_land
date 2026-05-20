@@ -1,28 +1,28 @@
 const homeBtn = document.getElementById("homeBtn");
-const bandinfoBtn = document.getElementById("bandinfoBtn");
-const bandpicturesBtn = document.getElementById("bandpicturesBtn");
-const futureeventsBtn = document.getElementById("futureeventsBtn");
-const pasteventsBtn = document.getElementById("pasteventsBtn");
+const band_infoBtn = document.getElementById("band_infoBtn");
+const band_picturesBtn = document.getElementById("band_picturesBtn");
+const future_eventsBtn = document.getElementById("future_eventsBtn");
+const past_eventsBtn = document.getElementById("past_eventsBtn");
 const contact_usBtn = document.getElementById("contact_usBtn");
 
 homeBtn.addEventListener("click", () => {
     window.location.href = "./";
 });
 
-bandinfoBtn.addEventListener("click", () => {
-    window.location.href = "./bandinfo.html";
+band_infoBtn.addEventListener("click", () => {
+    window.location.href = "./band_info.html";
 });
 
-bandpicturesBtn.addEventListener("click", () => {
-    window.location.href = "./bandpictures.html";
+band_picturesBtn.addEventListener("click", () => {
+    window.location.href = "./band_pictures.html";
 });
 
-futureeventsBtn.addEventListener("click", () => {
-    window.location.href = "./futureevents.html";
+future_eventsBtn.addEventListener("click", () => {
+    window.location.href = "./future_events.html";
 });
 
-pasteventsBtn.addEventListener("click", () => {
-    window.location.href = "./pastevents.html";
+past_eventsBtn.addEventListener("click", () => {
+    window.location.href = "./past_events.html";
 });
 
 contact_usBtn.addEventListener("click", () => {

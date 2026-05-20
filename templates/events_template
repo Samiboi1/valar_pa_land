@@ -48,7 +48,7 @@
 <h3>
     Evenemang, Plats, Stad, Datum
 </h3>
-<ul class="eventlinks">
+<ul class="event_links">
     <li>
         <a href="" target="_blank" rel="noopener noreferrer">
             Instagram
@@ -60,7 +60,7 @@
 <h3>
     Evenemang, Plats, Stad, Datum
 </h3>
-<ul class="eventlinks">
+<ul class="event_links">
     <li>
         <a href="" target="_blank" rel="noopener noreferrer">
             Instagram
@@ -74,7 +74,7 @@
 </ul>
 
 <!-- Main page next event -->
-<a href="https://samiboi1.github.io/valar_pa_land/future.html" target="_blank" rel="noopener noreferrer" class="mainevent">
+<a href="https://samiboi1.github.io/valar_pa_land/future_events.html" target="_blank" rel="noopener noreferrer" class="mainevent">
     <h2>
         Evenemang, Datum
     </h2>

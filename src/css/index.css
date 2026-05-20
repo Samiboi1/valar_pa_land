@@ -8,20 +8,20 @@ body {
     background-attachment: fixed;
 }
 
-.basicinfo {
+.basic_info {
     text-align: center;
     margin-top: -1.5rem;
 }
 
-.mainevent {
+.main_event {
     text-decoration: none;
     text-align: center; 
 }
 
-.mainevent h2 {
+.main_event h2 {
     margin-top: -1.5rem;
 }
 
-.mainevent h2:hover {
+.main_event h2:hover {
     text-decoration: underline;
 }

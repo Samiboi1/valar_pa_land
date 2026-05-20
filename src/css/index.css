@@ -1,7 +1,7 @@
 body {
     background-image:
         linear-gradient(oklch(0 0 0 / 60%), oklch(0 0 0 / 60%)),
-        url('../../images/pics/Ute1.jpg');
+        url('../../images/band/pics/Ute1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@ body {
 
 .basicinfo {
     text-align: center;
-    margin-top: -2rem;
+    margin-top: -1.5rem;
 }
 
 .mainevent {
@@ -19,7 +19,7 @@ body {
 }
 
 .mainevent h2 {
-    margin-top: -2rem;
+    margin-top: -1.5rem;
 }
 
 .mainevent h2:hover {

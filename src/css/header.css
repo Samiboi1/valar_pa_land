@@ -5,7 +5,6 @@ header {
     min-height: 5rem;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     gap: 0.75rem;
 }
 
@@ -70,16 +69,12 @@ header button:active {
     color: oklch(0.9821 0 0);
 }
 
-.dropdown_content a:hover {
-    background-color: oklch(0.7657 0.0471 254.55);
-    color: oklch(0.1702 0.0132 248.61);
-}
-
 .dropdown:hover .dropdown_content {
     display: block;
 }
 
-.dropdown:hover .dropBtn {
+.dropdown:hover .dropBtn, 
+.dropdown_content a:hover {
     background-color: oklch(0.7657 0.0471 254.55);
     color: oklch(0.1702 0.0132 248.61);
 }
@@ -93,10 +88,7 @@ header button:active {
     }
 
     header button,
-    .dropBtn {
-        width: 100%;
-    }
-
+    .dropBtn,
     .dropdown {
         width: 100%;
     }

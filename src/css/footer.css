@@ -4,9 +4,6 @@ footer {
     padding: 2rem;
     margin-top: 2rem;
     min-height: 3rem;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 .social_icons {
@@ -28,7 +25,6 @@ footer {
 .credit {
     margin: 0;
     margin-top: 1rem;
-    padding: 0;
     text-align: center;
     font-size: 1.2rem;
     color: oklch(0.9821 0 0);
@@ -46,8 +42,8 @@ footer {
 
 @media (max-width: 480px) {
     footer {
-        padding: 1rem 0.75rem;
-        margin-top: 1rem;
+        flex-direction: column;
+        align-items: stretch;
     }
 
     .social_icons {
@@ -58,13 +54,13 @@ footer {
     }
 
     .social_icons a {
-        font-size: 0.8rem;
+        font-size: 1rem;
         padding: 0.3rem;
         text-align: center;
         width: 100%;
     }
 
     .credit {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 }

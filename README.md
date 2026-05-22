@@ -51,7 +51,7 @@
 
 #### Navigating to the website
 
-To use this website simply navigate to https://samiboi1.github.io/valar_pa_land/.
+To use this website simply navigate to https://valarpaland.se/.
 
 #### What can I do?
 

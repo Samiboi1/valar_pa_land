@@ -10,21 +10,21 @@ homeBtn.addEventListener("click", () => {
 });
 
 band_infoBtn.addEventListener("click", () => {
-    window.location.href = "./band_info.html";
+    window.location.href = "./band_info";
 });
 
 band_picturesBtn.addEventListener("click", () => {
-    window.location.href = "./band_pictures.html";
+    window.location.href = "./band_pictures";
 });
 
 future_eventsBtn.addEventListener("click", () => {
-    window.location.href = "./future_events.html";
+    window.location.href = "./future_events";
 });
 
 past_eventsBtn.addEventListener("click", () => {
-    window.location.href = "./past_events.html";
+    window.location.href = "./past_events";
 });
 
 contact_usBtn.addEventListener("click", () => {
-    window.location.href = "./contact_us.html";
+    window.location.href = "./contact_us";
 });

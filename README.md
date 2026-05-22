@@ -69,6 +69,7 @@ These are the languages and tools used to develop and publish the website
 - HTML
 - CSS
 - Markdown
+- [Loopia](https://www.loopia.se/)
 - [Github Pages](https://pages.github.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>

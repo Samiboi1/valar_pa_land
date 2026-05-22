@@ -14,12 +14,11 @@
 
 .event_links a {
     color: oklch(0.9821 0 0);
-    text-decoration: none;
-    font-size: clamp(1rem, 3vw, 1.2rem);
+    font-size: clamp(1.1rem, 3vw, 1.3rem);
 }
 
 .event_links a:hover {
-    text-decoration: underline;
+    color: oklch(0.7657 0.0471 254.55);
 }
 
 .event_links li::marker {

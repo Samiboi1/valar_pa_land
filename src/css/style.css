@@ -8,7 +8,6 @@ html {
 }
 
 body {
-    margin: 1.5rem;
     padding: 0;
     background-color: oklch(0.2854 0.0506 248.11);
     display: flex;

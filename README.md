@@ -7,10 +7,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://samiboi1.github.io/valar_pa_land/">
+  <a href="https://valarpaland.se/">
     <img src="./images/logos/valar_pa_land-text.svg" alt="Logo" height="300">
   </a>
-  <a href="https://samiboi1.github.io/valar_pa_land/">
+  <a href="https://valarpaland.se/">    
     <img src="./images/logos/valar_pa_land-logo-nobg.png" alt="Logo" height="300">
   </a>
 
@@ -19,7 +19,7 @@
   <p align="center">
     The (currently) only website for Valar på Land
     <br />
-    <a href="https:///samiboi1.github.io/valar_pa_land/"><strong>Check out the website! »</strong></a>
+    <a href="https://valarpaland.se/"><strong>Check out the website! »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Samiboi1/valar_pa_land/issues">Report Bug</a>

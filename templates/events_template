@@ -24,11 +24,8 @@
 <div class="textbox">
     <div class="no_events">
         <h1>
-            Tyvärr
+            Spelningar kommer snart
         </h1>
-        <h2>
-            Inga spelningar planerade för tillfället
-        </h2>
     </div>
 </div>
 
@@ -74,8 +71,17 @@
 </ul>
 
 <!-- Main page next event -->
-<a href="https://samiboi1.github.io/valar_pa_land/future_events.html" target="_blank" rel="noopener noreferrer" class="mainevent">
+<a href="https://valarpaland.se/future_events" class="main_event">
     <h2>
         Evenemang, Datum
     </h2>
 </a>
+
+<!-- Main page no events -->
+<a href="https://valarpaland.se/future_events" class="main_event">
+    <h2>
+        Evenemang kommer snart
+    </h2>
+</a>
+
+Evenemang, Datum

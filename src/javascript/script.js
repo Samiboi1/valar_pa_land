@@ -1,6 +1,6 @@
 const homeBtn = document.getElementById("homeBtn");
-const band_infoBtn = document.getElementById("band_infoBtn");
-const band_picturesBtn = document.getElementById("band_picturesBtn");
+const membersBtn = document.getElementById("membersBtn");
+const picturesBtn = document.getElementById("picturesBtn");
 const future_eventsBtn = document.getElementById("future_eventsBtn");
 const past_eventsBtn = document.getElementById("past_eventsBtn");
 
@@ -8,12 +8,12 @@ homeBtn.addEventListener("click", () => {
     window.location.href = "./";
 });
 
-band_infoBtn.addEventListener("click", () => {
-    window.location.href = "./band_info";
+membersBtn.addEventListener("click", () => {
+    window.location.href = "./members";
 });
 
-band_picturesBtn.addEventListener("click", () => {
-    window.location.href = "./band_pictures";
+picturesBtn.addEventListener("click", () => {
+    window.location.href = "./pictures";
 });
 
 future_eventsBtn.addEventListener("click", () => {

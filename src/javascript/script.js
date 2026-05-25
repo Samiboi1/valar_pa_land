@@ -3,7 +3,6 @@ const band_infoBtn = document.getElementById("band_infoBtn");
 const band_picturesBtn = document.getElementById("band_picturesBtn");
 const future_eventsBtn = document.getElementById("future_eventsBtn");
 const past_eventsBtn = document.getElementById("past_eventsBtn");
-const contact_usBtn = document.getElementById("contact_usBtn");
 
 homeBtn.addEventListener("click", () => {
     window.location.href = "./";
@@ -23,8 +22,4 @@ future_eventsBtn.addEventListener("click", () => {
 
 past_eventsBtn.addEventListener("click", () => {
     window.location.href = "./past_events";
-});
-
-contact_usBtn.addEventListener("click", () => {
-    window.location.href = "./contact_us";
 });

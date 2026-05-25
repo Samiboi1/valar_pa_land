@@ -16,7 +16,7 @@
     object-fit: contain;
     border-radius: 20px;
     display: block;
-    margin: 0 auto;
+    margin-top: 5px;
 }
 
 .member h2 {
@@ -26,5 +26,9 @@
 
 .member p {
     margin: 0;
-    margin-bottom: 3px;
+    margin: 3px;
+}
+
+.member a:hover {
+    color: oklch(0.7657 0.0471 254.55);
 }

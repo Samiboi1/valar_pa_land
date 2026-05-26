@@ -1,6 +1,6 @@
 body {
     background-image:
-        linear-gradient(oklch(0 0 0 / 60%), oklch(0 0 0 / 60%)),
+        linear-gradient(oklch(0 0 0 / 70%), oklch(0 0 0 / 70%)),
         url('../../images/band/pics/Ute1.jpg');
     background-size: cover;
     background-position: center;

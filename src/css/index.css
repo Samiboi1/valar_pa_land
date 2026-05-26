@@ -14,15 +14,22 @@ body {
 }
 
 .main_event {
-    text-decoration: none;
-    text-align: center; 
-}
-
-.main_event h2 {
-    margin-top: -1.5rem;
-}
-
-.main_event h2:hover {
     text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+    text-align: center;
+    display: block;
+    font-size: clamp(1.3rem, 4vw, 1.75rem);
+    font-weight: bold;
+    margin-top: -1.5rem;
     color: oklch(0.7657 0.0471 254.55);
+}
+
+.main_event:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.main_event::after {
+    content: "↗";
 }

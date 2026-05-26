@@ -33,6 +33,14 @@
     color: oklch(0.7657 0.0471 254.55);
 }
 
+.bandmember::after {
+    content: "↗";
+}
+
+.profiletaker::after {
+    content: "↗";
+}
+
 @media (max-width: 1148px) {
     .memberlist {
         grid-template-columns: repeat(3, 1fr);

@@ -85,7 +85,7 @@ header button:active {
 
 /* Phone CSS */
 
-@media (max-width: 768px) {
+@media (max-width: 630px) {
     header {
         flex-direction: column;
         align-items: stretch;

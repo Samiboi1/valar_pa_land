@@ -80,7 +80,7 @@ These are the languages and tools used to develop and publish the website
 
 Sam Hartelius (Developer) - [@samhartelius](https://www.instagram.com/samhartelius/)
 
-Project Link: [https://github.com/Samiboi1/valar_pa_land/]
+Project Link: [https://valarpaland.se/]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

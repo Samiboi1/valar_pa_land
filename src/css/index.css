@@ -24,4 +24,5 @@ body {
 
 .main_event h2:hover {
     text-decoration: underline;
+    color: oklch(0.7657 0.0471 254.55);
 }

@@ -48,7 +48,7 @@
 <ul class="event_links">
     <li>
         <a href="" target="_blank" rel="noopener noreferrer">
-            Instagram
+            @ på Instagram
         </a>
     </li>
 </ul>
@@ -60,28 +60,22 @@
 <ul class="event_links">
     <li>
         <a href="" target="_blank" rel="noopener noreferrer">
-            Instagram
+            @ på Instagram
         </a>
     </li>
     <li>
         <a href="" target="_blank" rel="noopener noreferrer">
-            TikTok
+            @ på TikTok
         </a>
     </li>
 </ul>
 
 <!-- Main page next event -->
-<a href="https://valarpaland.se/future_events" class="main_event">
-    <h2>
-        Evenemang, Datum
-    </h2>
-</a>
+<h2>
+    Evenemang, Datum
+</h2>
 
 <!-- Main page no events -->
-<a href="https://valarpaland.se/future_events" class="main_event">
-    <h2>
-        Evenemang kommer snart
-    </h2>
-</a>
-
-Evenemang, Datum
+<h2>
+    Evenemang kommer snart
+</h2>

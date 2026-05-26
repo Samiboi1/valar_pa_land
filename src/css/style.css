@@ -8,8 +8,13 @@ html {
 }
 
 body {
-    padding: 0;
-    background-color: oklch(0.2854 0.0506 248.11);
+    background-image:
+        linear-gradient(oklch(0 0 0 / 70%), oklch(0 0 0 / 70%)),
+        url('../../images/band/pics/Ute1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     min-height: 100vh;

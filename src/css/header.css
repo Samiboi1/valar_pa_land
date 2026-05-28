@@ -48,6 +48,9 @@ header button:active {
     align-items: center;
 }
 
+.dropBtn:hover {
+    transform: translateY(-0.25rem);}
+
 .dropBtn::after {
     content: "▾";
     font-size: 1rem;

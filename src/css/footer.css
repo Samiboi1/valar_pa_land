@@ -46,7 +46,8 @@ footer {
 }
 
 .social_icons a:hover {
-    box-shadow: 0 0.5rem 0.5rem oklch(0 0 0 / 90%);
+    transform: translateY(-0.25rem);
+    box-shadow: 0rem 0rem 2rem oklch(0.9821 0 0);
 }
 
 .social_icons a:active {

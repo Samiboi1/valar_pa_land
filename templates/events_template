@@ -1,22 +1,16 @@
 <!-- Kommande evenemang -->
-<h1>
-    Kommande Evenemang
-</h1>
 <div class="textbox">
     <h2>
-        Title
+        Evenemang
     </h2>
     <p>
-        Datum: yyyy-mm-dd
+        Datum: 
     </p>
     <p>
         Plats:
     </p>
     <p>
         Tid:
-    </p>
-    <p>
-        Beskrivning:
     </p>
 </div>
 
@@ -52,6 +46,14 @@
         </a>
     </li>
 </ul>
+
+<!-- Evenemang med någonting som blir översatt som inte ska det -->
+<h3>
+    <span translate="no">Evenemang, </span>
+    <span translate="no">Plats, </span>
+    <span translate="yes">Stad, </span>
+    <span translate="no">Datum</span>
+</h3>
 
 <!-- Nytt evenemang med flera länkar -->
 <h3>

@@ -71,11 +71,11 @@
 </ul>
 
 <!-- Main page next event -->
-<h2>
-    Evenemang, Datum
-</h2>
+<a href="https://valarpaland.se/future_events" class="main_event">
+    Evenemang Datum
+</a>
 
 <!-- Main page no events -->
-<h2>
+<a href="https://valarpaland.se/future_events" class="main_event">
     Spelningar kommer snart!
-</h2>
+</a>

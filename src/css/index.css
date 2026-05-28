@@ -1,3 +1,14 @@
+/* Always picture, dont remove */
+body {
+    background-image:
+        linear-gradient(oklch(0 0 0 / 60%), oklch(0 0 0 / 60%)),
+        url('../../images/band/pics/Ute1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .basic_info {
     text-align: center;
     margin-top: -1.5rem;

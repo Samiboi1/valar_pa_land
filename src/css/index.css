@@ -29,6 +29,7 @@ body {
 .main_event:hover {
     text-decoration: underline;
     text-decoration-thickness: 3px;
+    transform: translateY(-3px);
 }
 
 .main_event::after {

@@ -1,83 +1,83 @@
 <!-- Kommande evenemang -->
-<div class="textbox">
-    <h2>
-        Evenemang
-    </h2>
-    <p>
-        Datum: 
-    </p>
-    <p>
-        Plats:
-    </p>
-    <p>
-        Tid:
-    </p>
-</div>
+        <div class="textbox">
+            <h2>
+                Evenemang
+            </h2>
+            <p>
+                Datum: 
+            </p>
+            <p>
+                Plats:
+            </p>
+            <p>
+                Tid:
+            </p>
+        </div>
 
 <!-- Inga evenemang -->
-<div class="textbox">
-    <div class="no_events">
-        <h1>
-            Spelningar kommer snart!
-        </h1>
-    </div>
-</div>
+        <div class="textbox">
+            <div class="no_events">
+                <h1>
+                    Spelningar kommer snart!
+                </h1>
+            </div>
+        </div>
 
 <!-- Ny månad -->
-<div class="textbox">
-    <h2>
-        Månad År
-    </h2>
-</div>
+        <div class="textbox">
+            <h2>
+                Månad År
+            </h2>
+        </div>
 
 <!-- Nytt evenemang utan länk -->
-<h3>
-    Evenemang, Plats, Stad, Datum
-</h3>
+            <h3>
+                Evenemang, Plats, Stad, Datum
+            </h3>
 
 <!-- Nytt evenemang med länk -->
-<h3>
-    Evenemang, Plats, Stad, Datum
-</h3>
-<ul class="event_links">
-    <li>
-        <a href="" target="_blank" rel="noopener noreferrer">
-            @ på Instagram
-        </a>
-    </li>
-</ul>
-
-<!-- Evenemang med någonting som blir översatt som inte ska det -->
-<h3>
-    <span translate="no">Evenemang, </span>
-    <span translate="no">Plats, </span>
-    <span translate="yes">Stad, </span>
-    <span translate="no">Datum</span>
-</h3>
+            <h3>
+                Evenemang, Plats, Stad, Datum
+            </h3>
+            <ul class="event_links">
+                <li>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        @ på Instagram
+                    </a>
+                </li>
+            </ul>
 
 <!-- Nytt evenemang med flera länkar -->
-<h3>
-    Evenemang, Plats, Stad, Datum
-</h3>
-<ul class="event_links">
-    <li>
-        <a href="" target="_blank" rel="noopener noreferrer">
-            @ på Instagram
-        </a>
-    </li>
-    <li>
-        <a href="" target="_blank" rel="noopener noreferrer">
-            @ på TikTok
-        </a>
-    </li>
-</ul>
+            <h3>
+                Evenemang, Plats, Stad, Datum
+            </h3>
+            <ul class="event_links">
+                <li>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        @ på Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        @ på Instagram
+                    </a>
+                </li>
+            </ul>
+
+<!-- Evenemang med någonting som blir översatt som inte ska det -->
+            <h3>
+                <span translate="no">Evenemang, </span>
+                <span translate="no">Plats, </span>
+                <span translate="yes">Stad, </span>
+                <span translate="no">Datum</span>
+            </h3>
 
 <!-- Main page next event -->
-<a href="https://valarpaland.se/future_events" class="main_event">
-    Evenemang Datum
-</a>
+        <a href="https://valarpaland.se/future_events" class="main_event">
+            Evenemang Datum
+        </a>
 
 <!-- Main page no events -->
-<a href="https://valarpaland.se/future_events" class="main_event">
-    Spelningar kommer snart!
-</a>
+        <a href="https://valarpaland.se/future_events" class="main_event">
+            Spelningar kommer snart!
+        </a>

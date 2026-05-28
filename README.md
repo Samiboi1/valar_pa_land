@@ -1,6 +1,5 @@
 <div id="top"></div>
 
-[![Contributors][contributors-shield]][contributors-url]
 [![License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -14,10 +13,10 @@
     <img src="./images/logos/valar_pa_land-logo-nobg.png" alt="Logo" height="300">
   </a>
 
-  <h3 align="center">Website for Valar på Land</h3>
+  <h3 align="center">Website for Valar På Land</h3>
 
   <p align="center">
-    The (currently) only website for Valar på Land
+    The (currently) only website for Valar På Land
     <br />
     <a href="https://valarpaland.se/"><strong>Check out the website! »</strong></a>
     <br />
@@ -55,7 +54,7 @@ To use this website simply navigate to https://valarpaland.se/.
 
 #### What can I do?
 
-On the website you can see when and where Valar På Land have concerts and a few pictures from photoshoots and concerts from the past
+On the website you can see when and where Valar På Land are playing, a few pictures from photoshoots and concerts from the past
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -86,8 +85,6 @@ Project Link: [https://valarpaland.se/]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/Samiboi1/valar_pa_land.svg?style=for-the-badge
-[contributors-url]: https://github.com/Samiboi1/valar_pa_land/graphs/contributors
 [license-shield]: https://img.shields.io/github/license/Samiboi1/valar_pa_land.svg?style=for-the-badge
 [license-url]: https://github.com/Samiboi1/valar_pa_land/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555

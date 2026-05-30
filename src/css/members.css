@@ -31,15 +31,6 @@
 
 .member a:hover {
     color: oklch(0.7657 0.0471 254.55);
-}
-
-.bandmember:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    transform: translateY(-1px);
-}
-
-.profiletaker:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     transform: translateY(-1px);

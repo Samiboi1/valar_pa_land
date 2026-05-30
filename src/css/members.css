@@ -33,12 +33,16 @@
     color: oklch(0.7657 0.0471 254.55);
 }
 
-.bandmember::after {
-    content: "↗";
+.bandmember:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    transform: translateY(-1px);
 }
 
-.profiletaker::after {
-    content: "↗";
+.profiletaker:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    transform: translateY(-1px);
 }
 
 @media (max-width: 1148px) {

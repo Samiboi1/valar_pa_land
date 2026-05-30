@@ -1,8 +1,10 @@
 .memberlist {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 24px;
     margin-bottom: 1rem;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+        "axel levi moa svea sam";
 }
 
 .member {
@@ -12,8 +14,8 @@
 .member img {
     width: 100%;
     height: auto;
-    max-height: 2750px;
-    object-fit: contain;
+    max-height: 1350px;
+    object-fit: cover;
     border-radius: 20px;
     display: block;
     margin-top: 5px;
@@ -36,20 +38,39 @@
     transform: translateY(-1px);
 }
 
-@media (max-width: 1148px) {
+.memberlist .member:nth-child(1) { grid-area: moa; }
+.memberlist .member:nth-child(2) { grid-area: levi; }
+.memberlist .member:nth-child(3) { grid-area: svea; }
+.memberlist .member:nth-child(4) { grid-area: axel; }
+.memberlist .member:nth-child(5) { grid-area: sam; }
+
+@media (max-width: 1186px) {
     .memberlist {
         grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+            "levi moa svea"
+            "axel sam .";
     }
 }
 
 @media (max-width: 884px) {
     .memberlist {
         grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+            "moa levi"
+            "svea axel"
+            "sam .";
     }
 }
 
 @media (max-width: 630px) {
     .memberlist {
         grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 
+            "moa"
+            "levi"
+            "svea"
+            "axel"
+            "sam";
     }
 }

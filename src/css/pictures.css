@@ -22,7 +22,7 @@ body {
 
 .carousel_track {
     display: flex;
-    transition: transform 0.5s ease;
+    transition: transform 2s ease-in-out;
     width: 100%;
 }
 
@@ -41,7 +41,7 @@ body {
     cursor: pointer;
     z-index: 20;
     background: oklch(0.9821 0 0);
-    color: oklch(0.4609 0.0066 274.86);
+    color: oklch(0.1702 0.0132 248.61);
     font-size: 1rem;
     font-weight: bold;
     padding: 1rem;
@@ -87,10 +87,9 @@ body {
     }
 
     .btn {
-        padding: 0;
-        width: 2.375rem;
-        height: 2.375rem;
+        padding: 0.9rem;
         font-size: 0.9rem;
+        border-radius: 0.9rem;
     }
 
     .btn.prev {
@@ -129,10 +128,9 @@ body {
     }
 
     .btn {
-        padding: 0;
-        width: 2rem;
-        height: 2rem;
-        font-size: 0.9rem;
+        padding: 0.8rem;
+        font-size: 0.8rem;
+        border-radius: 0.8rem;
     }
 
     .btn.prev {

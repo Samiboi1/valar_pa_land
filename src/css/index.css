@@ -23,7 +23,7 @@ body {
     font-size: clamp(1.3rem, 4vw, 1.75rem);
     font-weight: bold;
     margin-top: -1.5rem;
-    color: oklch(0.7657 0.0471 254.55);
+    color: oklch(0.7455 0.081 252.87);
 }
 
 .main_event:hover {

@@ -32,7 +32,7 @@
 }
 
 .member a:hover {
-    color: oklch(0.7657 0.0471 254.55);
+    color: oklch(0.7455 0.081 252.87);
     text-decoration: underline;
     text-decoration-thickness: 2px;
     transform: translateY(-1px);

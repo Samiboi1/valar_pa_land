@@ -1,5 +1,5 @@
 footer {
-    background-color: oklch(0.1702 0.0132 248.61);
+    background-color: oklch(0.152 0.0203 253.73);
     border-radius: 1rem;
     padding: 2rem;
     margin-top: 2rem;
@@ -47,7 +47,7 @@ footer {
 
 .social_icons a:hover {
     transform: translateY(-0.25rem);
-    box-shadow: 0rem 0rem 2rem oklch(0.9821 0 0);
+    box-shadow: 0rem 0rem 2rem oklch(0.9824 0.0049 236.62);
 }
 
 .social_icons a:active {
@@ -66,7 +66,7 @@ footer {
 
 .contact_info a:hover {
     text-decoration: underline;
-    color: oklch(0.7657 0.0471 254.55);
+    color: oklch(0.7455 0.081 252.87);
 }
 
 /* Phone CSS */

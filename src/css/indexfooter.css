@@ -38,7 +38,7 @@ footer {
 
 .social_icons a:hover {
     transform: translateY(-0.25rem);
-    box-shadow: 0rem 0rem 2rem oklch(0.9821 0 0);
+    box-shadow: 0rem 0rem 2rem oklch(0.9824 0.0049 236.62);
 }
 
 /* Phone CSS */

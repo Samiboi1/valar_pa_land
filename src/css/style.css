@@ -27,11 +27,11 @@ main {
 }
 
 .textbox {
-    border: 5px solid oklch(0.1702 0.0132 248.61);
+    border: 5px solid oklch(0.152 0.0203 253.73);
     border-radius: 1rem;
     padding: 0.75rem;
     margin-bottom: 1rem;
-    background: oklch(0.4162 0.0487 251.18);
+    background: oklch(0.4247 0.1111 258.7);
     width: 100%;
 }
 
@@ -39,7 +39,7 @@ h1,
 h2,
 h3,
 p {
-    color: oklch(0.9821 0 0);
+    color: oklch(0.9824 0.0049 236.62);
 }
 
 h1 {
@@ -76,7 +76,7 @@ button {
 }
 
 a {
-    color: oklch(0.9821 0 0);
+    color: oklch(0.9824 0.0049 236.62);
     word-break: break-word;
 }
 
@@ -90,7 +90,7 @@ img {
 @media (max-width: 630px) {
     body {
         background-image: none;
-        background-color: oklch(0.2854 0.0506 248.11);
+        background-color: oklch(0.3127 0.065 253.36);
         padding: 0;
         display: flex;
         flex-direction: column;

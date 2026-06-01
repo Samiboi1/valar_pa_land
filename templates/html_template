@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <button id="homeBtn"><img src="./images/logos/valar_pa_land-text.svg" alt="Logga för Valar på Land" class="vpl_logo"></button>
+        <button id="homeBtn"><img src="./images/logos/valar_pa_land-logo-nobg.png" alt="Logga för Valar på Land" class="vpl_logo"></button>
         <div class="dropdown">
             <button class="dropBtn" id="events_Btn">Spelningar </button>
             <div class="dropdown_content">

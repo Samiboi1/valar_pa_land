@@ -1,7 +1,6 @@
 header {
     background-color: oklch(0.152 0.0203 253.73);
     border-radius: 1rem;
-    padding: 0.5rem;
     min-height: 5rem;
     display: flex;
     align-items: center;
@@ -26,9 +25,8 @@ header button:active {
 
 .vpl_logo {
     height: 13rem;
+    margin: 1rem;
     vertical-align: top;
-    margin-right: 1rem;
-    margin-left: 1rem;
     max-width: 80vw;
 }
 

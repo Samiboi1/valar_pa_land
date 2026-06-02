@@ -11,6 +11,7 @@ footer {
     flex-wrap: wrap;
     gap: 0.75rem;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 
 .social_icons a {
@@ -38,7 +39,7 @@ footer {
 }
 
 .credit {
-    margin: 0;
+    margin-bottom: 0;
     margin-top: 1rem;
     text-align: center;
     font-size: 1.2rem;
@@ -54,8 +55,9 @@ footer {
     filter: brightness(50%);
 }
 
-.contact_info {
-    margin: 1rem;
+.mail, .location {
+    padding: 0.3rem;
+    margin-top: 0.5rem;
 }
 
 .contact_info a {

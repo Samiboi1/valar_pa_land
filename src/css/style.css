@@ -10,7 +10,7 @@ html {
 body {
     background-image:
         linear-gradient(oklch(0 0 0 / 60%), oklch(0 0 0 / 60%)),
-        url('../../images/band/pics/Ute1.jpg');
+        url('../../images/band/pics/Ute1-background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

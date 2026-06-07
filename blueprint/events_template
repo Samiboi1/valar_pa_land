@@ -1,4 +1,5 @@
-<!-- Kommande evenemang -->
+<!-- future_events -->
+    <!-- Ny spelning -->
         <div class="textbox">
             <h2>Evenemang</h2>
             <h3>Datum: </h3>
@@ -6,22 +7,58 @@
             <h3>Tid: </h3>
         </div>
 
-<!-- Inga evenemang -->
+    <!-- Ny spelning med länk -->
+        <div class="textbox">
+            <h2>Evenemang</h2>
+            <h3>Datum: </h3>
+            <h3>Plats: </h3>
+            <h3>Tid: </h3>
+            <ul class="event_links">
+                <li>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        @ på Instagram
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    <!-- Ny spelning med flera länkar -->
+        <div class="textbox">
+            <h2>Evenemang</h2>
+            <h3>Datum: </h3>
+            <h3>Plats: </h3>
+            <h3>Tid: </h3>
+            <ul class="event_links">
+                <li>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        @ på Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        @ på Instagram
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    <!-- Inga spelningar -->
         <div class="textbox">
             <div class="no_events">
                 <h1>Spelningar kommer snart!</h1>
             </div>
         </div>
 
-<!-- Ny månad -->
+<!-- past_events -->
+    <!-- Ny månad -->
         <div class="textbox">
             <h2>Månad År</h2>
         </div>
 
-<!-- Nytt evenemang utan länk -->
+    <!-- Ny spelning utan länk -->
             <h3>Evenemang, Plats, Stad, Datum</h3>
 
-<!-- Nytt evenemang med länk -->
+    <!-- Ny spelning med länk -->
             <h3>Evenemang, Plats, Stad, Datum</h3>
             <ul class="event_links">
                 <li>
@@ -31,7 +68,7 @@
                 </li>
             </ul>
 
-<!-- Nytt evenemang med flera länkar -->
+    <!-- Ny spelning med flera länkar -->
             <h3>Evenemang, Plats, Stad, Datum</h3>
             <ul class="event_links">
                 <li>
@@ -46,7 +83,7 @@
                 </li>
             </ul>
 
-<!-- Evenemang med någonting som blir översatt som inte ska det -->
+    <!-- Spelning med någonting som blir översatt som inte ska det -->
             <h3>
                 <span translate="no">Evenemang, </span>
                 <span translate="no">Plats, </span>
@@ -54,12 +91,12 @@
                 <span translate="no">Datum</span>
             </h3>
 
-<!-- Main page next event -->
+    <!-- Main page next event -->
         <a href="https://valarpaland.se/future_events" class="main_event">
             Evenemang Datum
         </a>
 
-<!-- Main page no events -->
+    <!-- Main page no events -->
         <a href="https://valarpaland.se/future_events" class="main_event">
             Spelningar kommer snart!
         </a>

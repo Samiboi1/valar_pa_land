@@ -1,9 +1,9 @@
 <!-- Kommande evenemang -->
         <div class="textbox">
             <h2>Evenemang</h2>
-            <p>Datum: </p>
-            <p>Plats: </p>
-            <p>Tid: </p>
+            <h3>Datum: </h3>
+            <h3>Plats: </h3>
+            <h3>Tid: </h3>
         </div>
 
 <!-- Inga evenemang -->
@@ -55,7 +55,11 @@
             </h3>
 
 <!-- Main page next event -->
-        <a href="https://valarpaland.se/future_events" class="main_event">Evenemang Datum</a>
+        <a href="https://valarpaland.se/future_events" class="main_event">
+            Evenemang Datum
+        </a>
 
 <!-- Main page no events -->
-        <a href="https://valarpaland.se/future_events" class="main_event">Spelningar kommer snart!</a>
+        <a href="https://valarpaland.se/future_events" class="main_event">
+            Spelningar kommer snart!
+        </a>

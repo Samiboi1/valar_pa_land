@@ -1,6 +1,6 @@
 {
-    "theme_color": "#142c42",
-    "background_color": "#791f2b",
+    "theme_color": "#254d8a",
+    "background_color": "#173251",
     "icons": [
         {
             "purpose": "any",
@@ -19,6 +19,6 @@
     "display": "standalone",
     "dir": "auto",
     "lang": "sv",
-    "name": "Valar på Land",
+    "name": "Valar På Land",
     "short_name": "VPL"
 }

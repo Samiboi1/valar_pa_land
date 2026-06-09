@@ -4,7 +4,7 @@
             <h2>Evenemang</h2>
             <h3>Datum: </h3>
             <h3>Plats: </h3>
-            <h3>Tid: </h3>
+            <h3>Öppet/dörrar: </h3>
         </div>
 
     <!-- Ny spelning med länk -->
@@ -12,7 +12,7 @@
             <h2>Evenemang</h2>
             <h3>Datum: </h3>
             <h3>Plats: </h3>
-            <h3>Tid: </h3>
+            <h3>Öppet/dörrar: </h3>
             <ul class="event_links">
                 <li>
                     <a href="" target="_blank" rel="noopener noreferrer">

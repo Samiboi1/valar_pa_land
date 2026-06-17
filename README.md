@@ -64,10 +64,11 @@ On the website you can see when and where Valar På Land are playing, a few pict
 
 These are the languages and tools used to develop and publish the website
 
-- JavaScript
-- HTML
-- CSS
-- Markdown
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Markdown](https://www.markdownguide.org/)
+- [Google Search Console](https://search.google.com/search-console/about)
 - [Loopia](https://www.loopia.se/)
 - [Github Pages](https://pages.github.com/)
 

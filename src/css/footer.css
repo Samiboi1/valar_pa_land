@@ -30,10 +30,6 @@ footer {
     background: linear-gradient(135deg, oklch(0.6473 0.2381 17.71), oklch(0.8758 0.1461 191.57));
 }
 
-.linktree {
-    background: linear-gradient(135deg, oklch(0.8142 0.221 146.16), oklch(0.2572 0.0257 268.23));
-}
-
 .youtube {
     background: linear-gradient(135deg, oklch(0.628 0.2577 29.23), oklch(0.2768 0 0));
 }

@@ -31,3 +31,33 @@ body {
     text-decoration-thickness: 4px;
     transform: translateY(-2px);
 }
+
+.special_event {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.special_inner {
+    background: linear-gradient(135deg, oklch(0.152 0.0203 253.73), oklch(0.3127 0.065 253.36));
+    border-radius: 1rem;
+    padding: 0.75rem;
+    padding-top: 0.1rem;
+}
+
+.special_link {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+    text-align: center;
+    display: block;
+    font-size: clamp(1.3rem, 4vw, 1.75rem);
+    font-weight: bold;
+    margin-top: -1.5rem;
+    color: oklch(0.7455 0.081 252.87);
+}
+
+.special_link:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    transform: translateY(-2px);
+}

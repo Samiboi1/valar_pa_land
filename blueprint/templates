@@ -100,3 +100,13 @@
         <a href="https://valarpaland.se/future_events" class="main_event">
             Spelningar kommer snart!
         </a>
+
+    <!-- Main page special events -->
+        <div class="special_event">
+            <div class="special_inner">
+                <h1 class="special_title"></h1>
+                <a href="" target="_blank" rel="noopener noreferrer" class="special_link">
+                    
+                </a>
+            </div>
+        </div>

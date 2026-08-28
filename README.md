@@ -78,7 +78,7 @@ These are the languages and tools used to develop and publish the website
 
 ## Contact
 
-Sam Hartelius (Developer) - [@samhartelius](https://www.instagram.com/samhartelius/)
+Sam Hartelius (Developer) - [samhartelius](https://www.linkedin.com/in/samhartelius/)
 
 Project Link: [https://valarpaland.se/]
 

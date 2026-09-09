@@ -71,6 +71,15 @@ footer {
     color: oklch(0.7455 0.081 252.87);
 }
 
+.developer {
+    text-decoration: none;
+}
+
+.developer:hover {
+    text-decoration: underline;
+    color: oklch(0.7455 0.081 252.87);
+}
+
 /* Phone CSS */
 
 @media (max-width: 630px) {

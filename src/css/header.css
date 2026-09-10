@@ -16,12 +16,12 @@ header {
     background-color: oklch(0.152 0.0203 253.73 / 0%);
 }
 
-header button:hover {
-    filter: brightness(80%);
+#homeBtn:hover {
+    filter: brightness(60%);
 }
 
-header button:active {
-    filter: brightness(50%);
+#homeBtn:active {
+    filter: brightness(40%);
 }
 
 .vpl_logo {

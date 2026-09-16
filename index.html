@@ -2,11 +2,69 @@
 <html lang="sv">
 
 <head>
-    <meta http-equiv="refresh" content="0; url=https://valarpaland.se/home">
+    <meta charset="utf-8">
+    <meta name="description" content="Lyssna på vår nyaste live session"/>
+    <link rel="icon" type="image" href="./images/logos/valar_pa_land-favicon.png"/>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/indexheader.css">
+    <link rel="stylesheet" href="./src/css/indexfooter.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="manifest" href="./src/manifest.json"/>
+    <title>Valar På Land - Hem</title>
 </head>
 
 <body>
-    <p>Redirecting... <a href="https://valarpaland.se/home">Click here if not redirected</a></p>
+    <header>
+        <button id="homeBtn"><img src="./images/logos/valar_pa_land-text.svg" alt="Logga för Valar På Land" class="vpl_logo"></button>
+        <div class="dropdown">
+            <button class="dropBtn" id="events_Btn">Spelningar </button>
+            <div class="dropdown_content">
+                <a id="future_eventsBtn">Kommande spelningar</a>
+                <a id="past_eventsBtn">Tidigare spelningar</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropBtn" id="about_usBtn">Om Oss </button>
+            <div class="dropdown_content">
+                <a id="the_bandBtn">Bandet</a>
+                <a id="picturesBtn">Bilder</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="special_event">
+            <div class="special_inner">
+                <h1 class="special_title">Spinning Jenny (Of Our Time) [Live Session]</h1>
+                <a href="https://www.youtube.com/watch?v=I1_i8Oz0G9M" target="_blank" rel="noopener noreferrer" class="special_link">
+                    www.youtube.com/watch?v=I1_i8Oz0G9M
+                </a>
+            </div>
+        </div>
+        <h1 class="title">
+            <span translate="yes">Välkommen till</span>
+            <span translate="no">Valar På Land!</span>
+        </h1>
+        <h2 class="basic_info">
+            Här kommer all info relaterat till oss. Allt från spelningar till albumsläpp.
+        </h2>
+        <h1 class="next_event">NÄSTA SPELNING:</h1>
+        <a href="https://valarpaland.se/future_events" class="main_event">
+            Spelningar kommer snart!
+        </a>
+    </main>
+
+    <footer>
+        <div class="social_icons">
+            <a href="https://www.instagram.com/valar_pa_land/" target="_blank" rel="noopener noreferrer" class="instagram">Instagram</a>
+            <a href="https://www.tiktok.com/@valar_pa_land" target="_blank" rel="noopener noreferrer" class="tiktok">TikTok</a>
+            <a href="https://www.youtube.com/@valar_pa_land" target="_blank" rel="noopener noreferrer" class="youtube">YouTube</a>
+            <a href="https://www.facebook.com/profile.php?id=61574634716303" target="_blank" rel="noopener noreferrer" class="facebook">Facebook</a>
+        </div>
+        <script src="./src/javascript/script.js"></script>
+        <script src="./src/javascript/sw-registration.js"></script>
+    </footer>
 </body>
 
 </html>

@@ -5,21 +5,21 @@ const future_eventsBtn = document.getElementById("future_eventsBtn");
 const past_eventsBtn = document.getElementById("past_eventsBtn");
 
 homeBtn.addEventListener("click", () => {
-    window.location.href = "https://valarpaland.se/home";
+    window.location.href = "./";
 });
 
 future_eventsBtn.addEventListener("click", () => {
-    window.location.href = "https://valarpaland.se/future_events";
+    window.location.href = "./future_events";
 });
 
 past_eventsBtn.addEventListener("click", () => {
-    window.location.href = "https://valarpaland.se/past_events";
+    window.location.href = "./past_events";
 });
 
 the_bandBtn.addEventListener("click", () => {
-    window.location.href = "https://valarpaland.se/the_band";
+    window.location.href = "./the_band";
 });
 
 picturesBtn.addEventListener("click", () => {
-    window.location.href = "https://valarpaland.se/pictures";
+    window.location.href = "./pictures";
 });

@@ -2,9 +2,9 @@
     display: grid;
     gap: 24px;
     margin-bottom: 1rem;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
-        "axel levi moa svea sam";
+        "axel levi moa sam";
 }
 
 .member {
@@ -40,36 +40,15 @@
 
 .memberlist .member:nth-child(1) { grid-area: moa; }
 .memberlist .member:nth-child(2) { grid-area: levi; }
-.memberlist .member:nth-child(3) { grid-area: svea; }
-.memberlist .member:nth-child(4) { grid-area: axel; }
-.memberlist .member:nth-child(5) { grid-area: sam; }
+.memberlist .member:nth-child(3) { grid-area: axel; }
+.memberlist .member:nth-child(4) { grid-area: sam; }
 
-@media (max-width: 1186px) {
-    .memberlist {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: 
-            "levi moa svea"
-            "axel sam .";
-    }
-}
-
-@media (max-width: 884px) {
-    .memberlist {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: 
-            "moa levi"
-            "svea axel"
-            "sam .";
-    }
-}
-
-@media (max-width: 630px) {
+@media (max-width: 960px) {
     .memberlist {
         grid-template-columns: repeat(1, 1fr);
         grid-template-areas: 
             "moa"
             "levi"
-            "svea"
             "axel"
             "sam";
     }

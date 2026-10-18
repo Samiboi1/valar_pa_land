@@ -1,10 +1,15 @@
+.memberlist .member:nth-child(1) { grid-area: moa; }
+.memberlist .member:nth-child(2) { grid-area: levi; }
+.memberlist .member:nth-child(3) { grid-area: axel; }
+.memberlist .member:nth-child(4) { grid-area: sam; }
+
 .memberlist {
     display: grid;
     gap: 24px;
     margin-bottom: 1rem;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
-        "axel levi moa sam";
+        "axel moa levi sam";
 }
 
 .member {
@@ -38,12 +43,16 @@
     transform: translateY(-1px);
 }
 
-.memberlist .member:nth-child(1) { grid-area: moa; }
-.memberlist .member:nth-child(2) { grid-area: levi; }
-.memberlist .member:nth-child(3) { grid-area: axel; }
-.memberlist .member:nth-child(4) { grid-area: sam; }
+@media (max-width: 1256px) {
+    .memberlist {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+            "moa levi"
+            "axel sam";
+    }
+}
 
-@media (max-width: 960px) {
+@media (max-width: 650px) {
     .memberlist {
         grid-template-columns: repeat(1, 1fr);
         grid-template-areas: 

@@ -1,15 +1,13 @@
 /* Always picture, dont remove */
-/* Add back when new band pictures have been taken 
 body {
     background-image:
         linear-gradient(oklch(0 0 0 / 60%), oklch(0 0 0 / 60%)),
-        url('../../images/band/pics/Ute1-background.jpg');
+        url('../../images/band/pics/axelinthesmoke.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-*/
 
 .basic_info {
     text-align: center;

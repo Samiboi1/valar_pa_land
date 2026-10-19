@@ -7,26 +7,14 @@ html {
     font-size: 1rem;
 }
 
-/* Add back when new band pictures have been taken
 body {
     background-image:
         linear-gradient(oklch(0 0 0 / 60%), oklch(0 0 0 / 60%)),
-        url('../../images/band/pics/Ute1-background.jpg');
+        url('../../images/band/pics/axelinthesmoke.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-*/
-
-/* Remove when new band pictures have been taken */
-body {
-    background-image: none;
-    background-color: oklch(0.3127 0.065 253.36);
-    padding: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;

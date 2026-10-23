@@ -56,26 +56,15 @@
         </div>
 
 <!-- past_events -->
-    <!-- Ny månad -->
+    <!-- Nytt år -->
         <div class="textbox">
-            <h2>Månad År</h2>
+            <h2>År</h2>
         </div>
 
     <!-- Ny spelning utan länk -->
             <h3>Evenemang, Plats, Stad, Datum</h3>
 
-    <!-- Ny spelning med länk -->
-            <h3>Evenemang, Plats, Stad, Datum</h3>
-            <ul class="event_links">
-                <li>
-                    <a href="" target="_blank" rel="noopener noreferrer">
-                        @ på Instagram
-                    </a>
-                </li>
-            </ul>
-
-    <!-- Ny spelning med flera länkar -->
-            <h3>Evenemang, Plats, Stad, Datum</h3>
+    <!-- Länkar till past_events -->
             <ul class="event_links">
                 <li>
                     <a href="" target="_blank" rel="noopener noreferrer">
@@ -88,14 +77,6 @@
                     </a>
                 </li>
             </ul>
-
-    <!-- Spelning med någonting som blir översatt som inte ska det -->
-            <h3>
-                <span translate="no">Evenemang, </span>
-                <span translate="no">Plats, </span>
-                <span translate="yes">Stad, </span>
-                <span translate="no">Datum</span>
-            </h3>
 
     <!-- Main page next event -->
         <a href="https://valarpaland.se/future_events" class="main_event">

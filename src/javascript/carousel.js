@@ -9,8 +9,12 @@ document.querySelectorAll('.carousel').forEach((carousel) => {
     let currentIndex = 0;
 
     function updateCarousel() {
-        track.style.transform = `translateX(-${currentIndex * 100}%)`;
-    }
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+    slides.forEach((slide, index) => {
+        slide.classList.toggle('active', index === currentIndex);
+    });
+}
 
     prevBtn.addEventListener('click', () => {
         currentIndex = (currentIndex - 1 + slides.length) % slides.length;

@@ -29,8 +29,42 @@ body {
 .slide {
     flex: 0 0 100%;
     width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.slide img {
     display: block;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+}
+
+.credit_carousel {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    margin: 0;
+    padding: 6px 10px;
+    background: oklch(0 0 0 / 65%);
+    color: oklch(0.9824 0.0049 236.62);
+    border-radius: 6px;
+}
+
+.credit_carousel a:hover {
+    color: oklch(0.7455 0.081 252.87);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    transform: translateY(-1px);
+}
+
+.credit_carousel a {
+    color: oklch(0.9824 0.0049 236.62);
+}
+
+.slide:not(.active) .credit {
+    display: none;
 }
 
 .carousel .btn {
@@ -38,13 +72,13 @@ body {
     top: 50%;
     transform: translateY(-50%);
     z-index: 2;
-    width: 42px;
-    height: 42px;
+    width: 2.625rem;
+    height: 2.625rem;
     border: none;
     border-radius: 50%;
-    background: rgba(0, 0, 0, 0.55);
-    color: white;
-    font-size: 18px;
+    background: oklch(0 0 0 / 55%);
+    color: oklch(0.9824 0.0049 236.62);
+    font-size: 1.125rem;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -52,15 +86,15 @@ body {
 }
 
 .carousel .btn.prev {
-    left: 10px;
+    left: 0.625rem;
 }
 
 .carousel .btn.next {
-    right: 10px;
+    right: 0.625rem;
 }
 
 .carousel .btn:hover {
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0 0 0 / 75%);
 }
 
 /* Phone CSS */
@@ -72,7 +106,8 @@ body {
         border-radius: 0.5rem;
     }
 
-    .carousel img {
+    .carousel img,
+    .carousel .slide {
         border-radius: 0.5rem;
     }
 
@@ -113,7 +148,8 @@ body {
         border-radius: 0.5rem;
     }
 
-    .carousel img {
+    .carousel img,
+    .carousel .slide {
         border-radius: 0.5rem;
     }
 

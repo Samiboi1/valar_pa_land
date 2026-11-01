@@ -27,8 +27,8 @@
         <div class="dropdown">
             <button class="dropBtn" id="about_usBtn">Om Oss </button>
             <div class="dropdown_content">
-                <a id="the_bandBtn">Bandet</a>
                 <a id="picturesBtn">Bilder</a>
+                <a id="the_bandBtn">Bandet</a>
             </div>
         </div>
     </header>
@@ -40,24 +40,33 @@
             <div class="carousel" id="band_carousel">
                 <button class="btn prev" type="button" data-carousel="band_carousel">&#10094;</button>
                 <div class="carousel_track">
-                    <img src="./images/band/pics/Inne1-carousel.jpg" alt="Bild på Valar på Land innomhus" class="slide" loading="lazy">
-                    <img src="./images/band/pics/Inne2-carousel.jpg" alt="Bild på Valar på Land innomhus" class="slide" loading="lazy">
-                    <img src="./images/band/pics/Inne3-carousel.jpg" alt="Bild på Valar på Land innomhus" class="slide" loading="lazy">
-                    <img src="./images/band/pics/Inne4-carousel.jpg" alt="Bild på Valar på Land innomhus" class="slide" loading="lazy">
-                    <img src="./images/band/pics/Ute1-carousel.jpg" alt="Bild på Valar på Land utomhus" class="slide" loading="lazy">
                 </div>
                 <button class="btn next" type="button" data-carousel="band_carousel">&#10095;</button>
             </div>
         </div>
         -->
-        <div class="random">
-            <h1 translate="no">Lite random bilder</h1>
-            <div class="carousel" id="random_carousel">
-                <!-- <button class="btn prev" type="button" data-carousel="random_carousel">&#10094;</button> -->
+        <div class="concerts">
+            <h1>Spelningar</h1>
+            <div class="carousel" id="concerts">
+                <button class="btn prev" type="button" aria-label="Föregående bild">&#10094;</button>
                 <div class="carousel_track">
-                    <img src="./images/band/pics/axelinthesmoke.jpg" alt="Axel som står själv på en tom asfaltsplan med sin bas, en hi-hat och en virvel" class="slide" loading="lazy">
+                    <img src="./images/band/pics/concerts/leviandmoa-amplifiedtour.jpg" alt="Moa och Levi ståendes brvid varandra på Lokstallet i Skövde" class="slide">
+                    <img src="./images/band/pics/concerts/leviandmoa-noexcuse.jpg" alt="Moa i fokus med Levi ståendes i bakgrunden på NoExcuse festivalen 2026" class="slide">
+                    <img src="./images/band/pics/concerts/moaandaxelblue-noexcuse.jpg" alt="Moa helt täckt av blå rök när Axel står i bakgrunden och knappast syns" class="slide">
+                    <img src="./images/band/pics/concerts/axelandleviinfocus-ros.jpg" alt="Närbild på Axel med Levi strax bakom honom" class="slide">
+                    <img src="./images/band/pics/concerts/thebandinlights-ros.jpg" alt="Hela bandet undangömt bakom en ljusslinga" class="slide">
                 </div>
-                <!-- <button class="btn next" type="button" data-carousel="band_carousel">&#10095;</button> -->
+                <button class="btn next" type="button" aria-label="Nästa bild">&#10095;</button>
+            </div>
+        </div>
+        <div class="random">
+            <h1>Lite random bilder</h1>
+            <div class="carousel" id="random_carousel">
+                <!-- <button class="btn prev" type="button" aria-label="Föregående bild">&#10094;</button> -->
+                <div class="carousel_track">
+                    <img src="./images/band/pics/random/axelinthesmoke.jpg" alt="Axel som står själv på en tom asfaltsplan med sin bas, en hi-hat och en virvel" class="slide">
+                </div>
+                <!-- <button class="btn next" type="button" aria-label="Nästa bild">&#10095;</button> -->
             </div>
         </div>
     </main>
@@ -75,7 +84,7 @@
         </div>
         <p class="credit">Utvecklad av <a href="https://www.instagram.com/samhartelius/" target="_blank" rel="noopener noreferrer" class="developer">trummisen</a> i bandet</p>
         <script src="./src/javascript/script.js"></script>
-        <script src="./src/javascript/pictures.js"></script>
+        <script src="./src/javascript/carousel.js"></script>
         <script src="./src/javascript/sw-registration.js"></script>
     </footer>
 </body>

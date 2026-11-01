@@ -4,6 +4,8 @@ document.querySelectorAll('.carousel').forEach((carousel) => {
     const prevBtn = carousel.querySelector('.btn.prev');
     const nextBtn = carousel.querySelector('.btn.next');
 
+    if (!track || !prevBtn || !nextBtn || slides.length === 0) return;
+
     let currentIndex = 0;
 
     function updateCarousel() {

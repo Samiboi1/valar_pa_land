@@ -65,7 +65,7 @@
     border-radius: 1.25rem;
 }
 
-.credit_carousel {
+.credit_description {
     position: absolute;
     bottom: 0.625rem;
     left: 0.625rem;
@@ -78,12 +78,8 @@
     border-radius: 0.375rem;
 }
 
-.credit_carousel a {
+.credit_description a {
     color: oklch(0.9824 0.0049 236.62);
-}
-
-.slide:not(.active) .credit {
-    display: none;
 }
 
 .carousel .btn {

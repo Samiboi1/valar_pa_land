@@ -40,7 +40,7 @@ body {
     object-fit: cover;
 }
 
-.credit_carousel {
+.credit_description {
     position: absolute;
     bottom: 10px;
     left: 10px;
@@ -52,19 +52,15 @@ body {
     border-radius: 6px;
 }
 
-.credit_carousel a:hover {
+.credit_description a:hover {
     color: oklch(0.7455 0.081 252.87);
     text-decoration: underline;
     text-decoration-thickness: 2px;
     transform: translateY(-1px);
 }
 
-.credit_carousel a {
+.credit_description a {
     color: oklch(0.9824 0.0049 236.62);
-}
-
-.slide:not(.active) .credit {
-    display: none;
 }
 
 .carousel .btn {
